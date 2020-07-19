@@ -1,0 +1,136 @@
+.container-fluid{
+  background-color: #EFF0F4;
+  height: 2000px;
+  padding: 2%;
+  margin: 15% 0 15% 0;
+}
+.theNavbar{
+  font-size: 13px;
+  height: 575px;
+}
+.navbar{
+  width:100%;
+}
+.navbar-nav{
+  width: 100%;
+}
+ul{
+  list-style-type: none;
+  padding-left: 8px;
+}
+.subtab{
+  width: 100px;
+}
+ /* 2) my-Orders Division (For Creating My order tab) */
+.my-Orders{
+  height: 100%;
+
+}
+/* 2.1) my-Orders-Tabs Division (For creating tabs (1.ALL) (2.To Pay) (3.To Ship) (4.To Receive)) */
+
+/* 2.2) my-Orders-section Division (For showing the orders status) */
+/* 2.2.1 order-Filter Division (For showing the orders according to the filter) */
+#first-section{
+  background-color: white;
+  margin-top: 2%;
+  padding: 1.5%;
+}
+.samestyle-orderfilter{
+  display: inline-block;
+}
+.filter-selection-options{
+  color:grey;
+  height: 35px;
+}
+
+ /* 2.2.2) orderNumber-orderDate-ManageButton Division  */
+ .second-section{
+   background-color: white;
+   margin-top: 2%;
+   padding: 1.5%;
+   padding-bottom: 0;
+ }
+ .ON-OD-MB-inline{
+   display: inline-block;
+ }
+
+/* 2.2.2))  first part */
+
+/* 2.2.2))  second part */
+.first-part, .second-part, .third-part{
+  font-size: 12px;
+  /* padding-bottom: 0; */
+}
+.second-part{
+  position:relative;
+  bottom:15px;
+}
+ .third-part{
+   position:relative;
+   bottom:25px;
+ }
+.last-part{
+  text-align: right;
+  position: relative;
+  bottom:30px;
+}
+hr{
+  position: relative;
+  bottom:30px;
+}
+
+
+
+/* 2.2.3) my-Orders-List Division (For showing the orders list) */
+.orderDate-style{
+  color: rgb(166, 167, 171);
+}
+
+
+.order-delivered-status{
+  background-color: #EFF0F5;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "fantasy";
+  padding-top: 1px;
+  text-align: center;
+}
+.price-style{
+  color:darkorange;
+  font-weight: bold;
+}
+
+
+/* manageOrders Style */
+.chatNow-Button, .writeAnReview-Button{
+  margin-bottom: 2%;
+}
+.chatNow-Button{
+  text-align: right;
+}
+
+.shipping-Address, .billing-Address, .order-Summary{
+  background-color: white;
+  margin-top: 3%;
+  padding: 2%;
+}
+
+
+
+@media screen and (max-width:1000px){
+  .theNavbar{
+ height: auto;
+}
+.container-fluid{
+  padding: 0;
+}
+  .order-delivered-status{
+    margin-left: 70%;
+  }
+  .order-Delivered-Date{
+    text-align: right;
+  }
+  .chatNow-Button, .writeAnReview-Button{
+    text-align: center;
+  }
+}
